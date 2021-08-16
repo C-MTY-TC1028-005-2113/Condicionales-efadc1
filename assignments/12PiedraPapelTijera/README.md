@@ -21,42 +21,42 @@ Escriba un programa que simule el juego <a href="https://es.wikipedia.org/wiki/P
 
 Las reglas del juego son las siguientes:
 - Simultáneamente, los dos jugadores muestran una mano en tres posibles posiciones:
-- Piedra: se muestra el puño cerrado y se representa con un caracter `a`.
+- Piedra: se muestra el puño cerrado y se representa con un caracter `r`.
 - Papel: se muestra la palma de la mano y se representa con un caracter `p`.
-- Tijera: se muestra la palma de la mano con los dedos separados en dos grupos y se representa con un caracter `t`.
-- El jugador que ha sacado Piedra gana al jugador que ha sacado Tijera.
-- El jugador que ha sacado Tijera gana al jugador que ha sacado Papel.
-- El jugador que ha sacado Papel gana al jugador que ha sacado Piedra.
+- Tijera: se muestra la palma de la mano con los dedos separados en dos grupos y se representa con un caracter `s`.
+- El jugador que ha sacado Piedra - rock gana al jugador que ha sacado Tijera.
+- El jugador que ha sacado Tijera - scissors gana al jugador que ha sacado Papel.
+- El jugador que ha sacado Papel - paper gana al jugador que ha sacado Piedra.
 - Caso de empate cuando dos jugadores elijan el mismo elemento.
 
 **Entradas**
-- Dos caracteres (a, p o t), cada uno en un renglón y representan la tirada de Ana y Juan, en ese orden.
+- Dos caracteres (r, p o s), cada uno en un renglón y representan la tirada de Ana y Juan, en ese orden.
 
 **Salida**
-- Mensaje de quien es el ganador en el siguiente formato: `"Gana Ana"` o `"Gana Juan"` o `"Empate"`. 
+- Mensaje de quien es el ganador en el siguiente formato: `"Gana Ana"` o `"Gana Juan"` o `"Empate"`.
 - En el caso de que ingresen algún string de más de un caracter se debe desplegar el siguiente mensaje `"Las tiradas deben ser un caracter"`, si son de un sólo caracter pero alguna de ellas no corresponde a un caracter válido, el mensaje a desplegar es `"Tirada incorrecta"`.
 
 Estos son algunos ejemplos de ejecución del programa. La salida del programa debe de ser exactamente de la siguiente forma:
 
 ```plaintext
-Tirada de Ana: a
+Tirada de Ana: r
 Tirada de Juan: p
 Gana Juan
 
-Tirada de Ana: t
+Tirada de Ana: s
 Tirada de Juan: p
 Gana Ana
 
-Tirada de Ana: a
-Tirada de Juan: a
+Tirada de Ana: r
+Tirada de Juan: r
 Empate
 
 Tirada de Ana: piedra
-Tirada de Juan: a
+Tirada de Juan: r
 Las tiradas deben ser un caracter
 
 Tirada de Ana: p
-Tirada de Juan: r
+Tirada de Juan: z
 Tirada incorrecta
 ```
 **Nota:** No te preocupes por esta parte del código
