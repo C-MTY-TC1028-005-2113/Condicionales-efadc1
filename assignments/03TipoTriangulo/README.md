@@ -30,7 +30,9 @@ Todos los números son mayores que cero
 
 es decir, la suma de dos de las medidas debe ser estrictamente mayor que la tercera.
 
-El triángulo equilátero tiene 3 lados iguales, el isósceles tiene 2 lados iguales y el escaleno tiene los 3 lados diferentes.
+- el triángulo equilátero tiene 3 lados iguales 
+- el triángulo isósceles tiene 2 lados iguales 
+- el triángulo escaleno tiene los 3 lados diferentes
 
 **Entradas**  
 El programa va a preguntar por tres **números enteros** uno en cada renglón.
@@ -41,9 +43,13 @@ Alguna de las siguientes palabras, según sea el tipo de triángulo para los val
   * ES UN TRIANGULO ISOSCELES  
   * ES UN TRIANGULO ESCALENO   
  
-O bien, la frase: NO ES TRIANGULO si los valores introducidos por el usuario no corresponden a los lados de un triángulo, es decir no cumplen con alguna de las condiciones mencionadas arriba.
+O bien, la frase: NO ES TRIANGULO  
+si los valores introducidos por el usuario  
+no corresponden a los lados de un triángulo,  
+es decir no cumplen con alguna de las condiciones mencionadas arriba.
 
-Escribe solamente uno de los 4 mensajes permitidos usando letras mayúsculas, no les pongas acentos en esta ocasión, escribe el mensaje exactamente como se describe.
+Escribe solamente uno de los 4 mensajes permitidos usando letras mayúsculas, 
+no les pongas acentos en esta ocasión, escribe el mensaje exactamente como se describe.
 
 ## Ejemplos    
 Ejemplo 1
